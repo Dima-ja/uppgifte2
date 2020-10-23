@@ -1,3 +1,8 @@
+body
+{
+  background-color: #d1fafc;
+}
+
 .carousel-item{
     height: 700px;
 }
@@ -5,31 +10,52 @@
     height: 100%;
 }
 #aboutMe{
-    /* overflow: hidden; */
-    background-color: blueviolet;
-}
-.content{
-    display: flex;
+    background-color: #e6f8e8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     align-items: center;
-    background-color: red;
     flex-direction: column;
 }
+
+#aboutMe img{
+    width: 50%;
+    display: flex;
+}
+
+.me{
+    display: flex;
+}
+
+
+.content{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
 #projects{
     background-color:white;
 }
+
 .decorationLine{
     background-color: yellowgreen;
-    height: 5px;
-    width: 5%;
+    height: 2px;
+    width: 20%;
     margin: auto;
     margin-top: 20px;
 }
 .eachProject{
     background-color: white;
     padding: 15px;
-    box-shadow: 15px 20px 10px teal;
+    box-shadow: 10px 10px 10px #9d29ae;
 }
+
+.eachProject IMG{
+    width: 50%;
+}
+
 .horizontalLine{
     width: 20%;
     height: 5px;
@@ -37,7 +63,7 @@
     margin: auto;
 }
 #contact{
-    background-color: #09c;
+    background-color:#04bad2;
 }
 .whiteText{
     color: white;
@@ -58,14 +84,12 @@ input, textarea{
 button{
     float: right;
     padding: 10px 25px;
-    background-color: black;
+    background-color:#89d4cf;
     color: white;
 }
 .myButton{
     padding-right: 5%;
 }
-
-
 
 
 
