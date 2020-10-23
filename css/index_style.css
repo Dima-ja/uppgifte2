@@ -1,0 +1,95 @@
+.carousel-item{
+    height: 700px;
+}
+.carousel-item img{
+    height: 100%;
+}
+#aboutMe{
+    /* overflow: hidden; */
+    background-color: blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-direction: column;
+}
+#projects{
+    background-color:white;
+}
+.decorationLine{
+    background-color: yellowgreen;
+    height: 5px;
+    width: 5%;
+    margin: auto;
+    margin-top: 20px;
+}
+.eachProject{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 15px 20px 10px teal;
+}
+.horizontalLine{
+    width: 20%;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+}
+#contact{
+    background-color: #09c;
+}
+.whiteText{
+    color: white;
+}
+.headerOfContact h2{
+    color: white;
+}
+.userData{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+input, textarea{
+    width: 90%;
+    margin-bottom: 15px !important;
+}
+button{
+    float: right;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+}
+.myButton{
+    padding-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+    .carousel-item{
+        height: 600px;
+    }
+}
+@media (min-width: 721px) and (max-width: 991px)
+{
+    .carousel-item{
+        height: 450px;
+    }
+}
+@media (max-width: 720px){
+    .carousel-item{
+        height: 350px;
+    }
+}
